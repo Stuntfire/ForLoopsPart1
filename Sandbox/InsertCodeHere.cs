@@ -29,12 +29,14 @@ namespace Sandbox
 
             // Case 3 - Change this to a for-loop!
             Console.WriteLine("Start of case 3");
-            int c3 = 0;
-            while (c3 < 12)
+            
+            for (int c3 = 0; c3 < 12; c3 += 2)
+
+            /*  while (c3 < 12)
             {
-                c3 = c3 + 2;
+                c3 = c3 + 2;    */
                 Console.WriteLine(c3);
-            }
+            //}
             Console.WriteLine("End of case 3");
 
 
